@@ -1,0 +1,91 @@
+{
+  "id": "",
+  "code": "",
+  "name": "",
+  "vendor": "",
+  "family": "",
+  "version": "",
+
+  "description": "",
+
+  "status": "Draft",
+
+  "releaseDate": "",
+
+  "deployment": {
+    "type": "",
+    "offline": false,
+    "api": true,
+    "opensource": false,
+    "license": ""
+  },
+
+  "context": {
+    "window": 0,
+    "memory": false
+  },
+
+  "modalities": {
+    "text": true,
+    "imageInput": false,
+    "imageOutput": false,
+    "audioInput": false,
+    "audioOutput": false,
+    "videoInput": false,
+    "videoOutput": false,
+    "vision": false
+  },
+
+  "capabilities": {
+    "reasoning": 0,
+    "coding": 0,
+    "research": 0,
+    "writing": 0,
+    "mathematics": 0,
+    "planning": 0,
+    "agents": 0,
+    "toolUse": 0,
+    "vision": 0,
+    "creativity": 0,
+    "speed": 0,
+    "hallucinationResistance": 0,
+    "instructionFollowing": 0,
+    "overall": 0
+  },
+
+  "strengths": [],
+
+  "weaknesses": [],
+
+  "idealTasks": [],
+
+  "avoidTasks": [],
+
+  "pricing": {
+    "tier": "",
+    "notes": ""
+  },
+
+  "integrations": [],
+
+  "supportedProtocols": [],
+
+  "supportedWorkflows": [],
+
+  "knownLimitations": [],
+
+  "failurePatterns": [],
+
+  "benchmarks": [],
+
+  "evidence": [],
+
+  "metadata": {
+    "author": "",
+    "reviewer": "",
+    "version": "1.0.0",
+    "created": "",
+    "updated": "",
+    "confidence": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "",
+  "code": "",
+  "name": "",
+  "category": "",
+  "description": "",
+
+  "version": "1.0.0",
+  "status": "Draft",
+
+  "purpose": "",
+
+  "supportedProtocols": [],
+
+  "supportedModels": [],
+
+  "triggerConditions": [],
+
+  "steps": [
+    {
+      "step": 1,
+      "title": "",
+      "description": "",
+      "protocol": "",
+      "optional": false,
+      "estimatedMinutes": 0
+    }
+  ],
+
+  "inputs": [
+    {
+      "name": "",
+      "type": "",
+      "required": true
+    }
+  ],
+
+  "outputs": [
+    {
+      "name": "",
+      "type": ""
+    }
+  ],
+
+  "decisionPoints": [
+    {
+      "condition": "",
+      "ifTrue": "",
+      "ifFalse": ""
+    }
+  ],
+
+  "verification": {
+    "verificationId": "",
+    "required": true
+  },
+
+  "performance": {
+    "estimatedAccuracy": 0,
+    "estimatedCost": "",
+    "estimatedTime": "",
+    "complexity": ""
+  },
+
+  "failurePatterns": [],
+
+  "evidence": [],
+
+  "metadata": {
+    "author": "",
+    "reviewer": "",
+    "created": "",
+    "updated": "",
+    "confidence": 0
+  }
+}

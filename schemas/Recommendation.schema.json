@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/Recommendation.schema.json",
+  "title": "Recommendation",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "priority": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "message": { "type": "string" },
+    "evidence": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["id", "message"],
+  "additionalProperties": true
+}

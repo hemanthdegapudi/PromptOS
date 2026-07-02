@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/Verification.schema.json",
+  "title": "Verification",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["passed", "failed", "pending"]
+    },
+    "checkedAt": { "type": "string", "format": "date-time" },
+    "details": { "type": "string" }
+  },
+  "required": ["id", "status"],
+  "additionalProperties": true
+}

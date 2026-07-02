@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/FailurePattern.schema.json",
+  "title": "FailurePattern",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "symptoms": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "remediation": { "type": "string" }
+  },
+  "required": ["id", "name"],
+  "additionalProperties": true
+}

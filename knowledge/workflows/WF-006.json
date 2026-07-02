@@ -1,0 +1,6 @@
+{
+  "id": "WF-006",
+  "name": "Workflow 006",
+  "trigger": "manual",
+  "steps": []
+}

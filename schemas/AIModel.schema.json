@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://promptos.org/schema/AIModel.schema.json",
+  "title": "PromptOS AIModel",
+  "description": "Canonical PromptOS AI Model Schema",
+  "type": "object",
+
+  "required": [
+    "id",
+    "name",
+    "vendor",
+    "family",
+    "version",
+    "deploymentType",
+    "contextWindow",
+    "modalities",
+    "capabilities",
+    "status"
+  ],
+
+  "properties": {
+
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+
+    "name": {
+      "type": "string"
+    },
+
+    "vendor": {
+      "type": "string"
+    },
+
+    "family": {
+      "type": "string"
+    },
+
+    "version": {
+      "type": "string"
+    },
+
+    "releaseDate": {
+      "type": "string",
+      "format": "date"
+    },
+
+    "deploymentType": {
+      "type": "string",
+      "enum": [
+        "Cloud",
+        "Local",
+        "Hybrid"
+      ]
+    },
+
+    "contextWindow": {
+      "type": "integer",
+      "minimum": 0
+    },
+
+    "modalities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Text",
+          "Image",
+          "Audio",
+          "Video",
+          "Vision",
+          "Code"
+        ]
+      }
+    },
+
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "toolSupport": {
+      "type": "boolean"
+    },
+
+    "pricingModel": {
+      "type": "string"
+    },
+
+    "status": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Stable",
+        "Deprecated",
+        "Archived"
+      ]
+    },
+
+    "scores": {
+      "type": "object",
+
+      "properties": {
+
+        "reasoning": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+
+        "coding": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+
+        "research": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+
+        "writing": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+
+        "vision": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+
+        "math": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+
+        "overall": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+
+      }
+    }
+
+  }
+}s

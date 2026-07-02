@@ -1,0 +1,90 @@
+{
+  "id": "",
+  "code": "",
+  "name": "",
+  "category": "",
+  "description": "",
+
+  "version": "1.0.0",
+  "status": "Draft",
+
+  "purpose": "",
+
+  "applicableTasks": [],
+
+  "supportedModels": [],
+
+  "recommendedModels": {
+    "primary": [],
+    "secondary": [],
+    "fallback": []
+  },
+
+  "genome": {
+    "role": "",
+    "objective": "",
+    "background": "",
+    "context": "",
+    "constraints": [],
+    "assumptions": [],
+    "successCriteria": [],
+    "outputFormat": "",
+    "verification": "",
+    "limitations": [],
+    "nextActions": []
+  },
+
+  "requiredInputs": [
+    {
+      "name": "",
+      "type": "",
+      "required": true,
+      "description": ""
+    }
+  ],
+
+  "generatedOutputs": [
+    {
+      "name": "",
+      "type": "",
+      "description": ""
+    }
+  ],
+
+  "workflow": {
+    "workflowId": "",
+    "steps": []
+  },
+
+  "verification": {
+    "verificationId": "",
+    "checklist": []
+  },
+
+  "compatibility": {
+    "minimumContext": 0,
+    "difficulty": "",
+    "hallucinationRisk": "",
+    "estimatedAccuracy": 0
+  },
+
+  "failurePatterns": [],
+
+  "evidence": [],
+
+  "examples": [
+    {
+      "title": "",
+      "input": "",
+      "output": ""
+    }
+  ],
+
+  "metadata": {
+    "author": "",
+    "reviewer": "",
+    "created": "",
+    "updated": "",
+    "confidence": 0
+  }
+}
